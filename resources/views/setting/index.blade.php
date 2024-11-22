@@ -18,31 +18,31 @@
                 <div class="box-body">
                     <div class="alert alert-info alert-dismissible" style="display: none;">
                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        <i class="icon fa fa-check"></i> Perubahan berhasil disimpan
+                        <i class="icon fa fa-check"></i> Changes saved successfully
                     </div>
                     <div class="form-group row">
-                        <label for="nama_perusahaan" class="col-lg-2 control-label">Nama Perusahaan</label>
+                        <label for="nama_perusahaan" class="col-lg-2 control-label">Company Name</label>
                         <div class="col-lg-6">
                             <input type="text" name="nama_perusahaan" class="form-control" id="nama_perusahaan" required autofocus>
                             <span class="help-block with-errors"></span>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="telepon" class="col-lg-2 control-label">Telepon</label>
+                        <label for="telepon" class="col-lg-2 control-label">Phone</label>
                         <div class="col-lg-6">
                             <input type="text" name="telepon" class="form-control" id="telepon" required>
                             <span class="help-block with-errors"></span>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="alamat" class="col-lg-2 control-label">Alamat</label>
+                        <label for="alamat" class="col-lg-2 control-label">Address</label>
                         <div class="col-lg-6">
                             <textarea name="alamat" class="form-control" id="alamat" rows="3" required></textarea>
                             <span class="help-block with-errors"></span>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="path_logo" class="col-lg-2 control-label">Logo Perusahaan</label>
+                        <label for="path_logo" class="col-lg-2 control-label">Company Logo</label>
                         <div class="col-lg-4">
                             <input type="file" name="path_logo" class="form-control" id="path_logo"
                                 onchange="preview('.tampil-logo', this.files[0])">
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="path_kartu_member" class="col-lg-2 control-label">Kartu Member</label>
+                        <label for="path_kartu_member" class="col-lg-2 control-label">Member Card</label>
                         <div class="col-lg-4">
                             <input type="file" name="path_kartu_member" class="form-control" id="path_kartu_member"
                                 onchange="preview('.tampil-kartu-member', this.files[0], 300)">
@@ -62,25 +62,25 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="diskon" class="col-lg-2 control-label">Diskon</label>
+                        <label for="diskon" class="col-lg-2 control-label">Discount</label>
                         <div class="col-lg-2">
                             <input type="number" name="diskon" class="form-control" id="diskon" required>
                             <span class="help-block with-errors"></span>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="tipe_nota" class="col-lg-2 control-label">Tipe Nota</label>
+                        <label for="tipe_nota" class="col-lg-2 control-label">Nota Type</label>
                         <div class="col-lg-2">
                             <select name="tipe_nota" class="form-control" id="tipe_nota" required>
-                                <option value="1">Nota Kecil</option>
-                                <option value="2">Nota Besar</option>
+                                <option value="1">Small Nota</option>
+                                <option value="2">Big Nota</option>
                             </select>
                             <span class="help-block with-errors"></span>
                         </div>
                     </div>
                 </div>
                 <div class="box-footer text-right">
-                    <button class="btn btn-sm btn-flat btn-primary"><i class="fa fa-save"></i> Simpan Perubahan</button>
+                    <button class="btn btn-sm btn-flat btn-primary"><i class="fa fa-save"></i> Save Change</button>
                 </div>
             </form>
         </div>

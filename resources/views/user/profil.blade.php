@@ -18,7 +18,7 @@
                 <div class="box-body">
                     <div class="alert alert-info alert-dismissible" style="display: none;">
                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        <i class="icon fa fa-check"></i> Perubahan berhasil disimpan
+                        <i class="icon fa fa-check"></i> Changes saved successfully
                     </div>
                     <div class="form-group row">
                         <label for="name" class="col-lg-2 control-label">Nama</label>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="box-footer text-right">
-                    <button class="btn btn-sm btn-flat btn-primary"><i class="fa fa-save"></i> Simpan Perubahan</button>
+                    <button class="btn btn-sm btn-flat btn-primary"><i class="fa fa-save"></i> Save Change</button>
                 </div>
             </form>
         </div>
