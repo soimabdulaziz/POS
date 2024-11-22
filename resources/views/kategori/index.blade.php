@@ -69,7 +69,7 @@
 
     function addForm(url) {
         $('#modal-form').modal('show');
-        $('#modal-form .modal-title').text('Tambah Kategori');
+        $('#modal-form .modal-title').text('Add Category');
 
         $('#modal-form form')[0].reset();
         $('#modal-form form').attr('action', url);
